@@ -72,5 +72,16 @@
 			<resource resourceType="PROJECT" workspacePath="/WorkFlow_PSDemo"/>
 		</configuration>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="PSOptions.opts" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>polyspace-configure</buildCommand>
+				<buildArguments>-allow-build-error -allow-overwrite -output-options-file C:\My_Drive\Old_Lap\demos\PS_Webinar\Src_Repo\WorkFlow_PSDemo\PSOptions.opts make</buildArguments>
+				<buildTarget/>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
 </cproject>
