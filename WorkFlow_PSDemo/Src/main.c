@@ -53,7 +53,7 @@ void main(void)
     default:
         compute_new_coordonates();
         polynomia(55);
-        polynomia(3);
+        polynomia(3); /* polyspace MISRA-C3:17.7 [To fix:High] "Demo" */
         break;
     }
 }
