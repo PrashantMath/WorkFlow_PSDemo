@@ -15,8 +15,8 @@
 -sources C:/My_Drive/Old_Lap/demos/PS_Webinar/Src_Repo/WorkFlow_PSDemo/Src/main.c
 -sources C:/My_Drive/Old_Lap/demos/PS_Webinar/Src_Repo/WorkFlow_PSDemo/Src/single_file_analysis.c
 -sources C:/My_Drive/Old_Lap/demos/PS_Webinar/Src_Repo/WorkFlow_PSDemo/Src/tasks1.c
--prog polyspace_configure
--author polyspace_configure
+-prog WorkFlow_PSDemo
+-author WorkFlow_PSDemo
 -lang c
 -c-version c11
 -no-stl-stubs
