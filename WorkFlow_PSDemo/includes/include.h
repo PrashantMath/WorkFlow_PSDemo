@@ -12,6 +12,7 @@
 #define checksum 1
 #define new_move 0
 #define previous_move 1
+#define TEST	5
 
 #define MAX_SIZE 10
 
